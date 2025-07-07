@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@shadcn/ui@latest/dist/ui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header animate__animated animate__fadeInDown">
+            <h1><i class="fas fa-quote-left"></i> Quote Generator</h1>
+            <p>Find inspiration with quotes on any topic</p>
+        </div>
+
+        <div class="search-box animate__animated animate__fadeIn animate__delay-1s">
+            <div class="input-group">
+                <input type="text" id="topicInput" placeholder="Enter a topic (e.g. life, love, success,)" class="form-input">
+                <button id="searchBtn" class="form-button">
+                    <span id="btnText">Get Quotes</span>
+                    <div id="spinner" class="spinner hidden"></div>
+                </button>
+            </div>
+            <div id="error" class="error-message"></div>
+        </div>
+
+        <div id="results" class="results-container animate__animated animate__fadeIn animate__delay-2s">
+            <div id="quoteContainer" class="quotes-grid"></div>
+        </div>
+
+        <div class="footer animate__animated animate__fadeInUp animate__delay-3s">
+            <p>Made with <i class="fas fa-heart"></i> for inspiration</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
