@@ -6,7 +6,7 @@ Built with HTML, CSS, and JavaScript.
 ---
 
 ## 🔗 Live Demo  
-[View on Vercel](https://quote-generator-nu-two.vercel.app/)
+[View on Vercel](https://quote-generator-three-lime.vercel.app/)
 
 ---
 
